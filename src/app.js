@@ -97,21 +97,6 @@ app.get('/verify-token', user_Controller.verify_token)
 
 
 
-// for google signup ke liye client id client secret
-
-// client id = 147968447325-he5mhqemkq161qbfv0r5qhclcn6hmff0.apps.googleusercontent.com
-// client secret =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
-//name = Nitin-1 dala h
-// project name =Google auth first project
-// Authorized redirect URIs = http://localhost:8000/auth/google/callback
-// package uses for sign up with google = passport , express,  dotenv, ejs ,passport-google-oauth2,   and express-session(*ye jaroori 100% ha express-session) 
-
-
-// yha se login with google end process
-
-
-
-
 
 //  start server below
 app.listen(port, (req, res) => {
